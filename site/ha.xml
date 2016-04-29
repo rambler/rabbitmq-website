@@ -457,7 +457,7 @@ limitations under the License.
           the queue weights 1kb, then each synchronisation message
           between nodes will be of 50 megabytes. You need to make sure
           that your network links between queue mirrors can accomodate
-          to this kind traffic. As mentioned above, if the network
+          this kind of traffic. As mentioned above, if the network
           takes longer than <a href="nettick.html">net_ticktime</a> to
           send one batch of messages, then nodes in the cluster could
           think they are in the presence of a network
